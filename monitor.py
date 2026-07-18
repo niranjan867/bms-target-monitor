@@ -506,7 +506,7 @@ def build_live_layout(stats: MonitorStats, elapsed: float, marker_found: bool) -
     analysis_table.add_row("Structural Shifts:", change_status)
     
     # Micro ProgressBar
-    prog = ProgressBar(total=100, completed=stats.confidence_score, width=15, color="green" if stats.confidence_score > 50 else "blue")
+    prog = ProgressBar(total=100, completed=stats.confidence_score, width=15, complete_style="green" if stats.confidence_score > 50 else "blue")
     analysis_table.add_row("Detection Vector:", prog)
     
     layout["analysis_panel"].update(Panel(
