@@ -1,0 +1,6 @@
+{
+  "name": "BookMyShow Monitor",
+  "description": "A highly reliable cloud-based BookMyShow monitoring system with Telegram notifications and rich terminal dashboard",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
